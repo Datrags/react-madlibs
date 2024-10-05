@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Madlibs!
+  </h1>
+  <div>
+    <form>
+      <label
+        for="name"
+      >
+        Name 
+      </label>
+      <input
+        id="name"
+        name="name"
+        placeholder="name"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="adj1"
+      >
+        Adjective 
+      </label>
+      <input
+        id="adj1"
+        name="adj1"
+        placeholder="adj1"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="adj2"
+      >
+        Adjective 
+      </label>
+      <input
+        id="adj2"
+        name="adj2"
+        placeholder="adj2"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="animal"
+      >
+        Animal 
+      </label>
+      <input
+        id="animal"
+        name="animal"
+        placeholder="animal"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="plural_noun"
+      >
+        Plural Noun 
+      </label>
+      <input
+        id="plural_noun"
+        name="plural_noun"
+        placeholder="plural_noun"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="adj3"
+      >
+        Adjective 
+      </label>
+      <input
+        id="adj3"
+        name="adj3"
+        placeholder="adj3"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="adj4"
+      >
+        Adjective 
+      </label>
+      <input
+        id="adj4"
+        name="adj4"
+        placeholder="adj4"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="verb_ing"
+      >
+        Ing Verb 
+      </label>
+      <input
+        id="verb_ing"
+        name="verb_ing"
+        placeholder="verb_ing"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="noun"
+      >
+        Noun 
+      </label>
+      <input
+        id="noun"
+        name="noun"
+        placeholder="noun"
+        type="text"
+        value=""
+      />
+      <br />
+      <label
+        for="adj5"
+      >
+        Adjective 
+      </label>
+      <input
+        id="adj5"
+        name="adj5"
+        placeholder="adj5"
+        type="text"
+        value=""
+      />
+      <br />
+      <button>
+        Submit
+      </button>
+    </form>
+  </div>
+  <p>
+    Insert information!
+  </p>
+</DocumentFragment>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <p>
+    Once upon a time, there was a Fuzzy guy named Joe.
+    One day, Joe decided to visit the Nimble zoo.
+
+    
+    At the Zoo, the first thing Joe saw was a Giraffe eating Chickens.
+    It was very Fragrant to see that!
+
+    
+    Next, Joe saw an Luminous Giraffe that was Jumping with a Nacho. 
+    Joe laughed and said, "That's the most Zealous thing I've ever seen!"
+  </p>
+</DocumentFragment>
+`;

@@ -1,5 +1,6 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import { render, waitFor , getByText, queryByText, screen} from "@testing-library/react";
+import '@testing-library/jest-dom'
 import Story from "./Story";
 
 const storyData = {
@@ -24,8 +25,10 @@ it("matches snapshot", function() {
   expect(asFragment()).toMatchSnapshot();
 });
 
-// it("renders a full story with data inputted", function() {
-//     const story = render(<Story wordsObj={storyData}/>)
-//     const giraffe = story.getByText(`Once upon a time, there was a Fuzzy guy named Joe.`);
-//     expect(giraffe).toBeInTheDocument();
-// })
+it("renders a full story with data inputted", async function() {
+    const story = render(<Story wordsObj={storyData}/>)
+    await waitFor(() => {
+      const p = story.queryByText(`Once upon a time, there was a Fuzzy guy named Joe.`);
+      expect(p).toBeInTheDocument();
+    })
+})

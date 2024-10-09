@@ -11,12 +11,3 @@ it("matches snapshot", function() {
   const { asFragment } = render(<Madlibs />);
   expect(asFragment()).toMatchSnapshot();
 });
-
-// it("should show the story", function() {
-//     const madlibs = render(<Madlibs/>);
-//     fireEvent.click(madlibs.getByText("Submit"));
-//     let story = madlibs.queryByText(
-//         "Once"
-//     );
-//     expect(story).toBeIntheDocument();
-// })

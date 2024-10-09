@@ -2,17 +2,26 @@
 
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
-  <p>
-    Once upon a time, there was a Fuzzy guy named Joe.
-    One day, Joe decided to visit the Nimble zoo.
-
-    
-    At the Zoo, the first thing Joe saw was a Giraffe eating Chickens.
-    It was very Fragrant to see that!
-
-    
-    Next, Joe saw an Luminous Giraffe that was Jumping with a Nacho. 
-    Joe laughed and said, "That's the most Zealous thing I've ever seen!"
-  </p>
+  <div>
+    <p />
+    <p>
+          Once upon a time, there was a Fuzzy guy named Joe.
+    </p>
+    <p>
+          One day, Joe decided to visit the Nimble zoo.
+    </p>
+    <p>
+          At the Zoo, the first thing Joe saw was a Giraffe eating Chickens.
+    </p>
+    <p>
+          It was very Fragrant to see that!
+    </p>
+    <p>
+          Next, Joe saw an Luminous Giraffe that was Jumping with a Nacho. 
+    </p>
+    <p>
+          Joe laughed and said, "That's the most Zealous thing I've ever seen!"
+    </p>
+  </div>
 </DocumentFragment>
 `;
